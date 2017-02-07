@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52E8BB968FA296620ED78794 /* libPods-QuakeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 090C4CEB1B146934F20BE5BA /* libPods-QuakeTests.a */; };
+		C64B81C61E4910F900D3D0A1 /* QuakeTestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B81C51E4910F900D3D0A1 /* QuakeTestsViewController.swift */; };
+		C64B81C81E4911BA00D3D0A1 /* QuakeTestsFiltrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B81C71E4911BA00D3D0A1 /* QuakeTestsFiltrarViewController.swift */; };
+		C661B07D1E463D5D0009850F /* GMUClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B0621E463D5D0009850F /* GMUClusterManager.m */; };
+		C661B07E1E463D5D0009850F /* GMUDefaultClusterIconGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B0661E463D5D0009850F /* GMUDefaultClusterIconGenerator.m */; };
+		C661B07F1E463D5D0009850F /* GMUDefaultClusterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B0691E463D5D0009850F /* GMUDefaultClusterRenderer.m */; };
+		C661B0801E463D5D0009850F /* GMUGridBasedClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B06C1E463D5D0009850F /* GMUGridBasedClusterAlgorithm.m */; };
+		C661B0811E463D5D0009850F /* GMUNonHierarchicalDistanceBasedAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B06F1E463D5D0009850F /* GMUNonHierarchicalDistanceBasedAlgorithm.m */; };
+		C661B0821E463D5D0009850F /* GMUSimpleClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B0711E463D5D0009850F /* GMUSimpleClusterAlgorithm.m */; };
+		C661B0831E463D5D0009850F /* GMUStaticCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B0731E463D5D0009850F /* GMUStaticCluster.m */; };
+		C661B0841E463D5D0009850F /* GMUWrappingDictionaryKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B0751E463D5D0009850F /* GMUWrappingDictionaryKey.m */; };
+		C661B0851E463D5D0009850F /* GQTPointQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B0791E463D5D0009850F /* GQTPointQuadTree.m */; };
+		C661B0861E463D5D0009850F /* GQTPointQuadTreeChild.m in Sources */ = {isa = PBXBuildFile; fileRef = C661B07B1E463D5D0009850F /* GQTPointQuadTreeChild.m */; };
+		C661B0891E463E890009850F /* Terremoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B0881E463E890009850F /* Terremoto.swift */; };
+		C661B08C1E463EB70009850F /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B08B1E463EB70009850F /* CustomInfoWindow.swift */; };
+		C661B08F1E463EFD0009850F /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C661B08E1E463EFD0009850F /* InfoWindow.xib */; };
+		C661B0911E464ED00009850F /* FiltrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B0901E464ED00009850F /* FiltrarViewController.swift */; };
 		C69D015D1E463C86000FC0AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D015C1E463C86000FC0AC /* AppDelegate.swift */; };
 		C69D015F1E463C86000FC0AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D015E1E463C86000FC0AC /* ViewController.swift */; };
 		C69D01621E463C86000FC0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69D01601E463C86000FC0AC /* Main.storyboard */; };
 		C69D01641E463C86000FC0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69D01631E463C86000FC0AC /* Assets.xcassets */; };
 		C69D01671E463C86000FC0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69D01651E463C86000FC0AC /* LaunchScreen.storyboard */; };
 		C69D01721E463C86000FC0AC /* QuakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D01711E463C86000FC0AC /* QuakeTests.swift */; };
+		EE9BDD61549EE05AA745D5B7 /* Pods_Quake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688991909755C59501E49072 /* Pods_Quake.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +44,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090C4CEB1B146934F20BE5BA /* libPods-QuakeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuakeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		688991909755C59501E49072 /* Pods_Quake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B28006AE195A786B737B443 /* Pods-Quake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quake/Pods-Quake.debug.xcconfig"; sourceTree = "<group>"; };
+		C64B81C41E490F0800D3D0A1 /* QuakeTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "QuakeTests copy-Info.plist"; path = "/Users/jordigamez/Desktop/Apps/Quake/QuakeTests copy-Info.plist"; sourceTree = "<absolute>"; };
+		C64B81C51E4910F900D3D0A1 /* QuakeTestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeTestsViewController.swift; sourceTree = "<group>"; };
+		C64B81C71E4911BA00D3D0A1 /* QuakeTestsFiltrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeTestsFiltrarViewController.swift; sourceTree = "<group>"; };
+		C661B05C1E463D5C0009850F /* Quake-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quake-Bridging-Header.h"; sourceTree = "<group>"; };
+		C661B05D1E463D5D0009850F /* GMUCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUCluster.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUCluster.h"; sourceTree = "<group>"; };
+		C661B05E1E463D5D0009850F /* GMUClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUClusterAlgorithm.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUClusterAlgorithm.h"; sourceTree = "<group>"; };
+		C661B05F1E463D5D0009850F /* GMUClusterIconGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUClusterIconGenerator.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUClusterIconGenerator.h"; sourceTree = "<group>"; };
+		C661B0601E463D5D0009850F /* GMUClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUClusterItem.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUClusterItem.h"; sourceTree = "<group>"; };
+		C661B0611E463D5D0009850F /* GMUClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUClusterManager.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUClusterManager.h"; sourceTree = "<group>"; };
+		C661B0621E463D5D0009850F /* GMUClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMUClusterManager.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUClusterManager.m"; sourceTree = "<group>"; };
+		C661B0631E463D5D0009850F /* GMUClusterManager+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GMUClusterManager+Testing.h"; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUClusterManager+Testing.h"; sourceTree = "<group>"; };
+		C661B0641E463D5D0009850F /* GMUClusterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUClusterRenderer.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUClusterRenderer.h"; sourceTree = "<group>"; };
+		C661B0651E463D5D0009850F /* GMUDefaultClusterIconGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUDefaultClusterIconGenerator.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUDefaultClusterIconGenerator.h"; sourceTree = "<group>"; };
+		C661B0661E463D5D0009850F /* GMUDefaultClusterIconGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMUDefaultClusterIconGenerator.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUDefaultClusterIconGenerator.m"; sourceTree = "<group>"; };
+		C661B0671E463D5D0009850F /* GMUDefaultClusterIconGenerator+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GMUDefaultClusterIconGenerator+Testing.h"; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUDefaultClusterIconGenerator+Testing.h"; sourceTree = "<group>"; };
+		C661B0681E463D5D0009850F /* GMUDefaultClusterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUDefaultClusterRenderer.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUDefaultClusterRenderer.h"; sourceTree = "<group>"; };
+		C661B0691E463D5D0009850F /* GMUDefaultClusterRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMUDefaultClusterRenderer.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUDefaultClusterRenderer.m"; sourceTree = "<group>"; };
+		C661B06A1E463D5D0009850F /* GMUDefaultClusterRenderer+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GMUDefaultClusterRenderer+Testing.h"; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUDefaultClusterRenderer+Testing.h"; sourceTree = "<group>"; };
+		C661B06B1E463D5D0009850F /* GMUGridBasedClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUGridBasedClusterAlgorithm.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUGridBasedClusterAlgorithm.h"; sourceTree = "<group>"; };
+		C661B06C1E463D5D0009850F /* GMUGridBasedClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMUGridBasedClusterAlgorithm.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUGridBasedClusterAlgorithm.m"; sourceTree = "<group>"; };
+		C661B06D1E463D5D0009850F /* GMUMarkerClustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUMarkerClustering.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUMarkerClustering.h"; sourceTree = "<group>"; };
+		C661B06E1E463D5D0009850F /* GMUNonHierarchicalDistanceBasedAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUNonHierarchicalDistanceBasedAlgorithm.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUNonHierarchicalDistanceBasedAlgorithm.h"; sourceTree = "<group>"; };
+		C661B06F1E463D5D0009850F /* GMUNonHierarchicalDistanceBasedAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMUNonHierarchicalDistanceBasedAlgorithm.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUNonHierarchicalDistanceBasedAlgorithm.m"; sourceTree = "<group>"; };
+		C661B0701E463D5D0009850F /* GMUSimpleClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUSimpleClusterAlgorithm.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUSimpleClusterAlgorithm.h"; sourceTree = "<group>"; };
+		C661B0711E463D5D0009850F /* GMUSimpleClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMUSimpleClusterAlgorithm.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUSimpleClusterAlgorithm.m"; sourceTree = "<group>"; };
+		C661B0721E463D5D0009850F /* GMUStaticCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUStaticCluster.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUStaticCluster.h"; sourceTree = "<group>"; };
+		C661B0731E463D5D0009850F /* GMUStaticCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMUStaticCluster.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUStaticCluster.m"; sourceTree = "<group>"; };
+		C661B0741E463D5D0009850F /* GMUWrappingDictionaryKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMUWrappingDictionaryKey.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUWrappingDictionaryKey.h"; sourceTree = "<group>"; };
+		C661B0751E463D5D0009850F /* GMUWrappingDictionaryKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GMUWrappingDictionaryKey.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GMUWrappingDictionaryKey.m"; sourceTree = "<group>"; };
+		C661B0761E463D5D0009850F /* GQTBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GQTBounds.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GQTBounds.h"; sourceTree = "<group>"; };
+		C661B0771E463D5D0009850F /* GQTPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GQTPoint.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GQTPoint.h"; sourceTree = "<group>"; };
+		C661B0781E463D5D0009850F /* GQTPointQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GQTPointQuadTree.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GQTPointQuadTree.h"; sourceTree = "<group>"; };
+		C661B0791E463D5D0009850F /* GQTPointQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GQTPointQuadTree.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GQTPointQuadTree.m"; sourceTree = "<group>"; };
+		C661B07A1E463D5D0009850F /* GQTPointQuadTreeChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GQTPointQuadTreeChild.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GQTPointQuadTreeChild.h"; sourceTree = "<group>"; };
+		C661B07B1E463D5D0009850F /* GQTPointQuadTreeChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GQTPointQuadTreeChild.m; path = "../../../../Downloads/google-maps-ios-utils-master/src/GQTPointQuadTreeChild.m"; sourceTree = "<group>"; };
+		C661B07C1E463D5D0009850F /* GQTPointQuadTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GQTPointQuadTreeItem.h; path = "../../../../Downloads/google-maps-ios-utils-master/src/GQTPointQuadTreeItem.h"; sourceTree = "<group>"; };
+		C661B0881E463E890009850F /* Terremoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terremoto.swift; sourceTree = "<group>"; };
+		C661B08B1E463EB70009850F /* CustomInfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
+		C661B08E1E463EFD0009850F /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		C661B0901E464ED00009850F /* FiltrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltrarViewController.swift; sourceTree = "<group>"; };
 		C69D01591E463C86000FC0AC /* Quake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69D015C1E463C86000FC0AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69D015E1E463C86000FC0AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +97,9 @@
 		C69D016D1E463C86000FC0AC /* QuakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69D01711E463C86000FC0AC /* QuakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeTests.swift; sourceTree = "<group>"; };
 		C69D01731E463C86000FC0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EC8AD347C52A8586D6DE78 /* Pods-QuakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuakeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuakeTests/Pods-QuakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D53B47DBD4279614E3040824 /* Pods-Quake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quake.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quake/Pods-Quake.release.xcconfig"; sourceTree = "<group>"; };
+		EED5FA89BF7A0FE27CCE6C05 /* Pods-QuakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuakeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuakeTests/Pods-QuakeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9BDD61549EE05AA745D5B7 /* Pods_Quake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +115,110 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E8BB968FA296620ED78794 /* libPods-QuakeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142274C3A5B546FF1721E0F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B28006AE195A786B737B443 /* Pods-Quake.debug.xcconfig */,
+				D53B47DBD4279614E3040824 /* Pods-Quake.release.xcconfig */,
+				C9EC8AD347C52A8586D6DE78 /* Pods-QuakeTests.debug.xcconfig */,
+				EED5FA89BF7A0FE27CCE6C05 /* Pods-QuakeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1424E49F1CAA4AEFF0ECB312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				688991909755C59501E49072 /* Pods_Quake.framework */,
+				090C4CEB1B146934F20BE5BA /* libPods-QuakeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C661B05B1E463D490009850F /* Google-Maps-iOS-Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C661B05D1E463D5D0009850F /* GMUCluster.h */,
+				C661B05E1E463D5D0009850F /* GMUClusterAlgorithm.h */,
+				C661B05F1E463D5D0009850F /* GMUClusterIconGenerator.h */,
+				C661B0601E463D5D0009850F /* GMUClusterItem.h */,
+				C661B0611E463D5D0009850F /* GMUClusterManager.h */,
+				C661B0621E463D5D0009850F /* GMUClusterManager.m */,
+				C661B0631E463D5D0009850F /* GMUClusterManager+Testing.h */,
+				C661B0641E463D5D0009850F /* GMUClusterRenderer.h */,
+				C661B0651E463D5D0009850F /* GMUDefaultClusterIconGenerator.h */,
+				C661B0661E463D5D0009850F /* GMUDefaultClusterIconGenerator.m */,
+				C661B0671E463D5D0009850F /* GMUDefaultClusterIconGenerator+Testing.h */,
+				C661B0681E463D5D0009850F /* GMUDefaultClusterRenderer.h */,
+				C661B0691E463D5D0009850F /* GMUDefaultClusterRenderer.m */,
+				C661B06A1E463D5D0009850F /* GMUDefaultClusterRenderer+Testing.h */,
+				C661B06B1E463D5D0009850F /* GMUGridBasedClusterAlgorithm.h */,
+				C661B06C1E463D5D0009850F /* GMUGridBasedClusterAlgorithm.m */,
+				C661B06D1E463D5D0009850F /* GMUMarkerClustering.h */,
+				C661B06E1E463D5D0009850F /* GMUNonHierarchicalDistanceBasedAlgorithm.h */,
+				C661B06F1E463D5D0009850F /* GMUNonHierarchicalDistanceBasedAlgorithm.m */,
+				C661B0701E463D5D0009850F /* GMUSimpleClusterAlgorithm.h */,
+				C661B0711E463D5D0009850F /* GMUSimpleClusterAlgorithm.m */,
+				C661B0721E463D5D0009850F /* GMUStaticCluster.h */,
+				C661B0731E463D5D0009850F /* GMUStaticCluster.m */,
+				C661B0741E463D5D0009850F /* GMUWrappingDictionaryKey.h */,
+				C661B0751E463D5D0009850F /* GMUWrappingDictionaryKey.m */,
+				C661B0761E463D5D0009850F /* GQTBounds.h */,
+				C661B0771E463D5D0009850F /* GQTPoint.h */,
+				C661B0781E463D5D0009850F /* GQTPointQuadTree.h */,
+				C661B0791E463D5D0009850F /* GQTPointQuadTree.m */,
+				C661B07A1E463D5D0009850F /* GQTPointQuadTreeChild.h */,
+				C661B07B1E463D5D0009850F /* GQTPointQuadTreeChild.m */,
+				C661B07C1E463D5D0009850F /* GQTPointQuadTreeItem.h */,
+				C661B05C1E463D5C0009850F /* Quake-Bridging-Header.h */,
+			);
+			name = "Google-Maps-iOS-Utils";
+			sourceTree = "<group>";
+		};
+		C661B0871E463E770009850F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C661B0881E463E890009850F /* Terremoto.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C661B08A1E463EA30009850F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C661B08B1E463EB70009850F /* CustomInfoWindow.swift */,
+				C69D01601E463C86000FC0AC /* Main.storyboard */,
+				C69D01651E463C86000FC0AC /* LaunchScreen.storyboard */,
+				C661B08E1E463EFD0009850F /* InfoWindow.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C661B08D1E463ECB0009850F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C69D015E1E463C86000FC0AC /* ViewController.swift */,
+				C661B0901E464ED00009850F /* FiltrarViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		C69D01501E463C86000FC0AC = {
 			isa = PBXGroup;
 			children = (
 				C69D015B1E463C86000FC0AC /* Quake */,
 				C69D01701E463C86000FC0AC /* QuakeTests */,
 				C69D015A1E463C86000FC0AC /* Products */,
+				142274C3A5B546FF1721E0F2 /* Pods */,
+				1424E49F1CAA4AEFF0ECB312 /* Frameworks */,
+				C64B81C41E490F0800D3D0A1 /* QuakeTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +234,12 @@
 		C69D015B1E463C86000FC0AC /* Quake */ = {
 			isa = PBXGroup;
 			children = (
+				C661B05B1E463D490009850F /* Google-Maps-iOS-Utils */,
 				C69D015C1E463C86000FC0AC /* AppDelegate.swift */,
-				C69D015E1E463C86000FC0AC /* ViewController.swift */,
-				C69D01601E463C86000FC0AC /* Main.storyboard */,
+				C661B0871E463E770009850F /* Model */,
+				C661B08A1E463EA30009850F /* View */,
+				C661B08D1E463ECB0009850F /* Controller */,
 				C69D01631E463C86000FC0AC /* Assets.xcassets */,
-				C69D01651E463C86000FC0AC /* LaunchScreen.storyboard */,
 				C69D01681E463C86000FC0AC /* Info.plist */,
 			);
 			path = Quake;
@@ -91,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				C69D01711E463C86000FC0AC /* QuakeTests.swift */,
+				C64B81C51E4910F900D3D0A1 /* QuakeTestsViewController.swift */,
+				C64B81C71E4911BA00D3D0A1 /* QuakeTestsFiltrarViewController.swift */,
 				C69D01731E463C86000FC0AC /* Info.plist */,
 			);
 			path = QuakeTests;
@@ -103,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C69D01761E463C86000FC0AC /* Build configuration list for PBXNativeTarget "Quake" */;
 			buildPhases = (
+				2FBA5D32A38C8D12667C5B41 /* [CP] Check Pods Manifest.lock */,
 				C69D01551E463C86000FC0AC /* Sources */,
 				C69D01561E463C86000FC0AC /* Frameworks */,
 				C69D01571E463C86000FC0AC /* Resources */,
+				9AE51541D67045612D651D5E /* [CP] Embed Pods Frameworks */,
+				C5D4118AD741447BC35EF579 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C69D01791E463C86000FC0AC /* Build configuration list for PBXNativeTarget "QuakeTests" */;
 			buildPhases = (
+				B15BCFFC83308B233602A276 /* [CP] Check Pods Manifest.lock */,
 				C69D01691E463C86000FC0AC /* Sources */,
 				C69D016A1E463C86000FC0AC /* Frameworks */,
 				C69D016B1E463C86000FC0AC /* Resources */,
+				A9094B8C8C42C81EC9A0F351 /* [CP] Embed Pods Frameworks */,
+				21CBBC00184E8EDFAA06A3A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +313,7 @@
 					C69D01581E463C86000FC0AC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2GF85C9B94;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					C69D016C1E463C86000FC0AC = {
@@ -184,6 +351,7 @@
 				C69D01671E463C86000FC0AC /* LaunchScreen.storyboard in Resources */,
 				C69D01641E463C86000FC0AC /* Assets.xcassets in Resources */,
 				C69D01621E463C86000FC0AC /* Main.storyboard in Resources */,
+				C661B08F1E463EFD0009850F /* InfoWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +364,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21CBBC00184E8EDFAA06A3A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuakeTests/Pods-QuakeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FBA5D32A38C8D12667C5B41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE51541D67045612D651D5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quake/Pods-Quake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9094B8C8C42C81EC9A0F351 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuakeTests/Pods-QuakeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15BCFFC83308B233602A276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D4118AD741447BC35EF579 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quake/Pods-Quake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C69D01551E463C86000FC0AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C69D015F1E463C86000FC0AC /* ViewController.swift in Sources */,
+				C661B07D1E463D5D0009850F /* GMUClusterManager.m in Sources */,
+				C661B0851E463D5D0009850F /* GQTPointQuadTree.m in Sources */,
+				C661B0821E463D5D0009850F /* GMUSimpleClusterAlgorithm.m in Sources */,
+				C661B0841E463D5D0009850F /* GMUWrappingDictionaryKey.m in Sources */,
+				C661B0891E463E890009850F /* Terremoto.swift in Sources */,
+				C661B07E1E463D5D0009850F /* GMUDefaultClusterIconGenerator.m in Sources */,
+				C661B0831E463D5D0009850F /* GMUStaticCluster.m in Sources */,
 				C69D015D1E463C86000FC0AC /* AppDelegate.swift in Sources */,
+				C661B0801E463D5D0009850F /* GMUGridBasedClusterAlgorithm.m in Sources */,
+				C661B08C1E463EB70009850F /* CustomInfoWindow.swift in Sources */,
+				C661B07F1E463D5D0009850F /* GMUDefaultClusterRenderer.m in Sources */,
+				C661B0811E463D5D0009850F /* GMUNonHierarchicalDistanceBasedAlgorithm.m in Sources */,
+				C661B0861E463D5D0009850F /* GQTPointQuadTreeChild.m in Sources */,
+				C661B0911E464ED00009850F /* FiltrarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +484,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64B81C61E4910F900D3D0A1 /* QuakeTestsViewController.swift in Sources */,
+				C64B81C81E4911BA00D3D0A1 /* QuakeTestsFiltrarViewController.swift in Sources */,
 				C69D01721E463C86000FC0AC /* QuakeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,40 +615,56 @@
 		};
 		C69D01771E463C86000FC0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B28006AE195A786B737B443 /* Pods-Quake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2GF85C9B94;
 				INFOPLIST_FILE = Quake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jordigamez.Quake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quake/Quake-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C69D01781E463C86000FC0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53B47DBD4279614E3040824 /* Pods-Quake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2GF85C9B94;
 				INFOPLIST_FILE = Quake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jordigamez.Quake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quake/Quake-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		C69D017A1E463C86000FC0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EC8AD347C52A8586D6DE78 /* Pods-QuakeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2GF85C9B94;
 				INFOPLIST_FILE = QuakeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jordigamez.QuakeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quake/Quake-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quake.app/Quake";
 			};
@@ -380,14 +672,17 @@
 		};
 		C69D017B1E463C86000FC0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED5FA89BF7A0FE27CCE6C05 /* Pods-QuakeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2GF85C9B94;
 				INFOPLIST_FILE = QuakeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jordigamez.QuakeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quake/Quake-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quake.app/Quake";
 			};
@@ -412,6 +707,7 @@
 				C69D01781E463C86000FC0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C69D01791E463C86000FC0AC /* Build configuration list for PBXNativeTarget "QuakeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +716,7 @@
 				C69D017B1E463C86000FC0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
