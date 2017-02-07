@@ -13,6 +13,7 @@ Quake es una aplicación para iOS que interactua con la API Seismi mostrando los
 # Requisitos
 - iOS 8.0+
 - Swift 3.0+
+- Xcode 8.0+
 
 # Licencia
 Copyright 2017 Jordi Gámez
