@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "40DAC8FA7EB176D630422154D2CAEFE382DD6600",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "40DAC8FA7EB176D630422154D2CAEFE382DD6600" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "91074718-40BB-44EB-A2F9-F3AA30962A67",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "40DAC8FA7EB176D630422154D2CAEFE382DD6600" : "..\/..\/Desktop\/Apps\/Quake"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Quake",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Quake.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JordiGamez\/Quake.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40DAC8FA7EB176D630422154D2CAEFE382DD6600"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JordiGamez\/Quake.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40DAC8FA7EB176D630422154D2CAEFE382DD6600"
+    }
+  ]
+}

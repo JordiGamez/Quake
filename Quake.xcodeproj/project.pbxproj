@@ -47,7 +47,6 @@
 		090C4CEB1B146934F20BE5BA /* libPods-QuakeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuakeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		688991909755C59501E49072 /* Pods_Quake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B28006AE195A786B737B443 /* Pods-Quake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quake/Pods-Quake.debug.xcconfig"; sourceTree = "<group>"; };
-		C64B81C41E490F0800D3D0A1 /* QuakeTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "QuakeTests copy-Info.plist"; path = "/Users/jordigamez/Desktop/Apps/Quake/QuakeTests copy-Info.plist"; sourceTree = "<absolute>"; };
 		C64B81C51E4910F900D3D0A1 /* QuakeTestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeTestsViewController.swift; sourceTree = "<group>"; };
 		C64B81C71E4911BA00D3D0A1 /* QuakeTestsFiltrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeTestsFiltrarViewController.swift; sourceTree = "<group>"; };
 		C661B05C1E463D5C0009850F /* Quake-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quake-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -218,7 +217,6 @@
 				C69D015A1E463C86000FC0AC /* Products */,
 				142274C3A5B546FF1721E0F2 /* Pods */,
 				1424E49F1CAA4AEFF0ECB312 /* Frameworks */,
-				C64B81C41E490F0800D3D0A1 /* QuakeTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
