@@ -5,6 +5,6 @@
 #ifndef Header_h
 #define Header_h
 
-#import "GMUMarkerClustering.h"
+#import "Google-Maps-iOS-Utils/GMUMarkerClustering.h"
 
 #endif /* Header_h */
